@@ -7,7 +7,30 @@ body {
     padding: 0;
   }
   
-  h1, h2, h3, p {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
     margin: 0;
   }
 
@@ -17,7 +40,65 @@ body {
     }
   
     .logo {
-      margin-bottom: 10px;
+      margin-top: 77px;
+      margin-bottom: 27px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #DF3D0F;
+      text-align: center;
+      font-family: Mashetic;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .button-mobile-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      fill: #2f2f37;
+      background: transparent;
+      outline: none;
+      border: none;
+    }
+
+    .button {
+      width: 143px;
+      height: 35px;
+      border: none;
+      background: linear-gradient(90deg, #3B34A1 0%, #E1400F 100%);;
+    }
+
+    .button-menu {
+        width: 53px;
+        height: 35px;
+        fill: #FFF;
+    }
+
+    .button-link {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .nav-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        margin-left: 15px;
+        margin-right: 15px;
     }
   
     .cta-buttons .btn {
