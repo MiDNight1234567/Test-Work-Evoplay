@@ -25,7 +25,7 @@
         <li><a href="#resources">Resources</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-	  <div class="nav-buttons">
+	<div class="nav-buttons">
       <button class="button-mobile-menu" id="open-menu" type="menu">
         <svg class="button-menu" width="24" height="24">
           <use href="./svg/icon-svg.svg#icon-burgermenu"></use>
@@ -40,42 +40,63 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <h1>Empowering Your Digital World with Advanced Security Solutions</h1>
-    <p>Discover unparalleled protection with Secure Nexus, your partners in defending against cyber threats and enhancing your operational integrity.</p>
-    <div class="cta-buttons">
-      <a href="#" class="btn learn-more">Learn More</a>
-      <a href="#" class="btn get-started">Get Started</a>
+    <div class="hero-content">
+    <h1 class="hero-title">Empowering Your Digital World with Advanced Security Solutions</h1>
+    <p class="hero-description">Discover unparalleled protection with Secure Nexus, your partners in defending against cyber threats and enhancing your operational integrity.</p>
     </div>
     <div class="hero-image">
-        <img
-        class="group-hero"
-        srcset="
-        ./images/GroupHero405x346@1x.png 1x,
-        ./images/GroupHero405x346@2x.png 2x,
-        ./images/GroupHero550x470@1x.png 1x,
-        ./images/GroupHero550x470@1x.png 2x
-      "
-        src="./images/GroupHero405x346@1x.png"
-        alt="GroupHero"
-        width="405"
-        height="346"
-      />
+                <picture>
+                  <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@1x.png" />
+                  <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@2x.png" />
+                  <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@1x.png" />
+                  <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@2x.png" />
+                  <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@1x.png" />
+                  <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@2x.png" />
+                  <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@1x.png" />
+                  <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@2x.png" />
+                  <img 
+                  class="hero-img"
+                  src="./images/GroupHero405x346@1x.png"
+                  alt="GroupHero" 
+                  width="400"
+                  height="340"/>
+                </picture>
+    </div>
+    <div class="cta-buttons">
+    <button class="button-learn-more">
+      <a href="#" class="link-button">Learn More</a>
+    </button>
+    <button class="button-get-started">
+      <a href="#" class="link-button">Get Started</a>
+    </button>
     </div>
   </section>
 
   <!-- Features Section -->
   <section class="features">
     <div class="feature">
-      <div class="icon"></div>
-      <h3>Comprehensive Security Audit</h3>
+      <div class="icon-elipse-wrapper">
+      <svg class="icon-elipse" width="134" height="134">
+        <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
+      </svg>
+    </div>
+      <h3 class="feature-title">Comprehensive Security Audit</h3>
     </div>
     <div class="feature">
-      <div class="icon"></div>
-      <h3>Real-Time Threat Monitoring</h3>
+      <div class="icon-elipse-wrapper">
+        <svg class="icon-elipse" width="134" height="134">
+          <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
+        </svg>
+      </div>
+      <h3 class="feature-title">Real-Time Threat Monitoring</h3>
     </div>
     <div class="feature">
-      <div class="icon"></div>
-      <h3>Cutting-Edge Cyber Defense Technologies</h3>
+      <div class="icon-elipse-wrapper">
+        <svg class="icon-elipse" width="134" height="134">
+          <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
+        </svg>
+      </div>
+      <h3 class="feature-title">Cutting-Edge Cyber Defense Technologies</h3>
     </div>
   </section>
 

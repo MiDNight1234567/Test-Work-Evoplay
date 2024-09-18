@@ -42,14 +42,14 @@ body {
     .logo {
       margin-top: 77px;
       margin-bottom: 27px;
-      margin-left: auto;
+      margin-left: 79px;
       margin-right: auto;
       color: #DF3D0F;
       text-align: center;
-      font-family: Mashetic;
+      font-family: 'Montserrat';
       font-size: 18px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 600;
       line-height: normal;
     }
 
@@ -66,19 +66,31 @@ body {
       background: transparent;
       outline: none;
       border: none;
+      position: relative;
     }
 
     .button {
+      position: absolute;
+      left: 260px;
       width: 143px;
       height: 35px;
       border: none;
-      background: linear-gradient(90deg, #3B34A1 0%, #E1400F 100%);;
+      margin-right: 15px;
+      background: linear-gradient(90deg, #3B34A1 0%, #E1400F 100%);
+    }
+
+    .button:hover {
+      cursor: pointer;
     }
 
     .button-menu {
         width: 53px;
         height: 35px;
         fill: #FFF;
+    }
+
+    .button-menu:hover {
+      cursor: pointer;
     }
 
     .button-link {
@@ -100,23 +112,127 @@ body {
         margin-left: 15px;
         margin-right: 15px;
     }
-  
-    .cta-buttons .btn {
-      font-size: 16px;
-      padding: 10px 20px;
+
+    .hero-content {
+      width: 400px; 
+      margin-top: 63px;
+      margin-bottom: 63px;
+      margin-left: auto;
+      margin-right: auto;
+      /* margin-left: 15px;
+      margin-right: 15px; */
     }
-  
-    .features, .stats, .services, .contact {
-      padding: 20px;
-    }
-  
-    .features, .service-cards, .resource-icons {
+
+    .hero-title {
+      color: #FFF;
       text-align: center;
+      font-family: 'Montserrat';
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-left: 15px;
+      margin-bottom: 14px;
     }
-  
-    .footer-container {
+
+    .hero-description {
+      color: #FFF;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-left: 15px;
+    }
+
+    .hero-image {
+      border-radius: 459px;
+      background: radial-gradient(50% 50% at 50% 50%, rgba(12, 54, 185, 0.69) 0%, rgba(5, 24, 83, 0.00) 100%);
+      margin-bottom: 63px;
+      margin-left: 15px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
       flex-direction: column;
+      margin-left: 85px;
+      margin-bottom: 120px;
+    }
+
+    .button-learn-more {
+      width: 292px;
+      height: 73px;
+      border: none;
+      background: linear-gradient(90deg, #3B34A1 0%, #E1400F 100%);
+      margin-bottom: 39px;
+    }
+
+    .link-button {
+      width: 160px;
+      color: #FFF;
       text-align: center;
+      font-family: 'Montserrat';
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+
+    .button-get-started {
+      width: 292px;
+      height: 73px;
+      border: 3px solid #3B34A1;
+      background: #001531;
+    }
+
+    .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .feature {
+      width: 334px;
+      height: 228px;
+      margin-left: 85px;
+      border-radius: 15px;
+      background: rgba(59, 52, 160, 0.27);
+      position: relative;
+      margin-bottom: 104px;
+    }
+
+    .icon-elipse-wrapper {
+      position: absolute;
+      right: 100px;
+      bottom: 136px;
+      width: 134px;
+      height: 134px;
+      border-radius: 50%;
+      background-color: #F77307;
+    }
+
+    .icon-elipse {
+      width: 134px;
+      height: 134px;
+      fill: #F77307;
+    }
+
+    .feature-title {
+      width: 286px;
+      color: #FFF;
+      text-align: center;
+      font-family: 'Montserrat';
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-top: 114px;
+      margin-left: 24px;
     }
   }
 
