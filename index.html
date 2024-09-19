@@ -1,187 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Secure Nexus</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
-  <link rel="stylesheet" href="./stayle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Nexus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        />
+    <link rel="stylesheet" href="./stayle.css">
 </head>
 <body>
-  <!-- Header -->
-  <header id="header">
-    <nav>
-      <div class="logo">Secure Nexus</div>
-      <ul class="nav-links">
-        <li><a href="#header">Home</a></li>
-        <li><a href="#stats">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-	<div class="nav-buttons">
-      <button class="button-mobile-menu" id="open-menu" type="menu">
-        <svg class="button-menu" width="24" height="24">
-          <use href="./svg/icon-svg.svg#icon-burgermenu"></use>
-        </svg>
-      </button>
-      <button class="button">
-      <a href="#" class="button-link">Get Protect Now</a>
-      </button>
-	</div>
-    </nav>
-  </header>
+    <!-- Header -->
+    <header id="header">
+        <nav class="container">
+            <div class="logo">Secure Nexus</div>
+            <ul class="nav-links">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#lending">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    <div class="nav-buttons">
+            <button class="button-mobile-menu" id="open-menu" type="menu">
+                <svg class="button-menu" width="24" height="24">
+                    <use href="./svg/icon-svg.svg#icon-burgermenu"></use>
+                </svg>
+            </button>
+            <button class="button">
+            <a href="#" class="button-link">Get Protect Now</a>
+            </button>
+    </div>
+        </nav>
+    </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-    <h1 class="hero-title">Empowering Your Digital World with Advanced Security Solutions</h1>
-    <p class="hero-description">Discover unparalleled protection with Secure Nexus, your partners in defending against cyber threats and enhancing your operational integrity.</p>
-    </div>
-    <div class="hero-image">
-                <picture>
-                  <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@1x.png" />
-                  <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@2x.png" />
-                  <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@1x.png" />
-                  <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@2x.png" />
-                  <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@1x.png" />
-                  <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@2x.png" />
-                  <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@1x.png" />
-                  <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@2x.png" />
-                  <img 
-                  class="hero-img"
-                  src="./images/GroupHero405x346@1x.png"
-                  alt="GroupHero" 
-                  width="400"
-                  height="340"/>
-                </picture>
-    </div>
-    <div class="cta-buttons">
-    <button class="button-learn-more">
-      <a href="#" class="link-button">Learn More</a>
-    </button>
-    <button class="button-get-started">
-      <a href="#" class="link-button">Get Started</a>
-    </button>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="hero container">
+        <div class="hero-content">
+        <h1 class="hero-title">Empowering Your Digital World with Advanced Security Solutions</h1>
+        <p class="hero-description">Discover unparalleled protection with Secure Nexus, your partners in defending against cyber threats and enhancing your operational integrity.</p>
+        </div>
+        <div class="hero-image">
+                                <picture>
+                                    <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@1x.png" />
+                                    <source media="(min-width: 320px) and (max-width: 374.98px)" srcset="./images/GroupHero405x346@2x.png" />
+                                    <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@1x.png" />
+                                    <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/GroupHero405x346@2x.png" />
+                                    <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@1x.png" />
+                                    <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/GroupHero550x470@2x.png" />
+                                    <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@1x.png" />
+                                    <source media="(min-width: 1440px)" srcset="./images/GroupHero550x470@2x.png" />
+                                    <img
+                                    class="hero-img"
+                                    src="./images/GroupHero405x346@1x.png"
+                                    alt="GroupHero"
+                                    width="400"
+                                    height="340"/>
+                                </picture>
+        </div>
+        <div class="cta-buttons">
+        <button class="button-learn-more">
+            <a href="#" class="link-button">Learn More</a>
+        </button>
+        <button class="button-get-started">
+            <a href="#" class="link-button">Get Started</a>
+        </button>
+        </div>
+    </section>
 
-  <!-- Features Section -->
-  <section class="features">
-    <div class="feature">
-      <div class="icon-elipse-wrapper">
-      <svg class="icon-elipse" width="134" height="134">
-        <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
-      </svg>
-    </div>
-      <h3 class="feature-title">Comprehensive Security Audit</h3>
-    </div>
-    <div class="feature">
-      <div class="icon-elipse-wrapper">
-        <svg class="icon-elipse" width="134" height="134">
-          <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
-        </svg>
-      </div>
-      <h3 class="feature-title">Real-Time Threat Monitoring</h3>
-    </div>
-    <div class="feature">
-      <div class="icon-elipse-wrapper">
-        <svg class="icon-elipse" width="134" height="134">
-          <use href="./svg/icon-svg.svg#icon-Ellipse"></use>
-        </svg>
-      </div>
-      <h3 class="feature-title">Cutting-Edge Cyber Defense Technologies</h3>
-    </div>
-  </section>
+    <!-- Features Section -->
+    <section class="features container">
+        <div class="feature">
+            <div class="icon-elipse-wrapper">
+            <svg class="icon-elipse" width="134" height="134">
+                <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+            </svg>
+        </div>
+            <h3 class="feature-title">Comprehensive Security Audit</h3>
+        </div>
+        <div class="feature">
+            <div class="icon-elipse-wrapper">
+                <svg class="icon-elipse" width="134" height="134">
+                    <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                </svg>
+            </div>
+            <h3 class="feature-title">Real-Time Threat Monitoring</h3>
+        </div>
+        <div class="feature">
+            <div class="icon-elipse-wrapper">
+                <svg class="icon-elipse" width="134" height="134">
+                    <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                </svg>
+            </div>
+            <h3 class="feature-title">Cutting-Edge Cyber Defense Technologies</h3>
+        </div>
+    </section>
 
-  <!-- Stats Section -->
-  <section class="stats" id="stats">
-    <div class="stat"><span>4K+</span> Cyber Security Projects</div>
-    <div class="stat"><span>100K+</span> Customers Globally</div>
-    <div class="stat"><span>350+</span> Cyber Security Experts</div>
-    <div class="stat"><span>100%</span> Client Retention Rate</div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <h2>Our Comprehensive Range of Cybersecurity Services</h2>
-    <div class="service-cards">
-      <div class="card">
-        <h3>Risk Assessment</h3>
-        <p>Secure your business with reliable risk management strategies.</p>
-      </div>
-      <div class="card">
-        <h3>Incident Response</h3>
-        <p>Effective response to cyber threats in real-time.</p>
-      </div>
-      <div class="card">
-        <h3>Compliance Solutions</h3>
-        <p>Ensure your business meets all industry regulations.</p>
-      </div>
+    <!-- Stats Section -->
+    <section class="stats container" id="stats">
+    <div class="stats-wrapper">
+        <div class="stats">
+        <div class="icon-stats-wrapper">
+            <svg class="icon-stats-svg" width="50" height="46">
+                <use href="./svg/icon-svg.svg#icon-basket"></use>
+            </svg>
+        </div>
+            <span class="stats-number">4K+</span>
+            <p class="stats-text">Cyber Security Projects</p>
+        </div>
+        <div class="stats">
+        <div class="icon-stats-wrapper two">
+            <svg class="icon-stats-svg" width="88" height="88">
+                <use href="./svg/icon-svg.svg#icon-file"></use>
+            </svg>
+        </div>
+            <span class="stats-number">100K+</span>
+            <p class="stats-text">Customers Globally</p>
+        </div>
+        <div class="stats">
+            <div class="icon-stats-wrapper three">
+            <svg class="icon-stats-svg" width="88" height="88">
+                <use href="./svg/icon-svg.svg#icon-dollar"></use>
+            </svg>
+        </div>
+            <span class="stats-number">350+</span>
+            <p class="stats-text">Cyber Security Experts</p>
+        </div>
+        <div class="stats">
+            <div class="icon-stats-wrapper four">
+            <svg class="icon-stats-svg" width="88" height="88">
+                <use href="./svg/icon-svg.svg#icon-file-ok"></use>
+            </svg>
+        </div>
+            <span class="stats-number">100%</span>
+            <p class="stats-text text-down">Client Retention Rate</p>
+        </div>
     </div>
-  </section>
+    </section>
 
-  <!-- Resources Section -->
-  <section class="resources" id="resources">
-    <h2>Explore Our Rich Library of Cybersecurity Resources</h2>
-    <div class="resource-icons">
-      <div class="resource"><h3>E-books</h3></div>
-      <div class="resource"><h3>Webinars</h3></div>
-      <div class="resource"><h3>Blog Articles</h3></div>
-    </div>
-  </section>
+    <!-- Lending Section -->
+    <section class="lending container" id="lending">
+      <div class="lending-wrapper">
+        <h2 class="lending-title">Leading the Way in Cybersecurity Innovation</h2>
+        <p class="lending-description">With decades of expertise and a relentless pursuit of excellence, we deliver security solutions designed to protect multinational corporations and small businesses alike</p>
+        <picture>
+        <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/4963-min@1x.jpg" />
+        <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/4963-min@2x.jpg" />
+        <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/image@1x.jpg" />
+        <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/image@2x.jpg" />
+        <source media="(min-width: 1440px)" srcset="./images/image@1x.jpg" />
+        <source media="(min-width: 1440px)" srcset="./images/image@2x.jpg" />
+        <img class="lending-img" src="./images/4963-min@1x.jpg" alt="#">
+        </picture>
+        <p class="lending-description-two">At Secure Nexus/Guardian Tech, we understand the complexity of cybersecurity challenges that businesses face today. Our team of experts is committed to providing state-of-the-art solutions tailored to your specific needs, ensuring robust protection and peace of mind.</p>
+        <button class="lending-button">Read More</button>
+      </div>
+    </section>
 
-  <!-- Contact Form Section -->
-  <section class="contact" id="contact">
-    <h2>Connect With Our Cybersecurity Experts Today</h2>
-    <form>
-      <input type="text" name="name" placeholder="Name">
-      <input type="email" name="email" placeholder="Email">
-      <textarea name="message" placeholder="Message"></textarea>
-      <button type="submit" class="btn submit">Send Message</button>
-    </form>
-  </section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-container">
-	<div class="foter-logo" id="header">Secure Nexus</div>
-      <div class="footer-column">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="#stats">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#resources">Resources</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
+    <!-- Services Section -->
+    <section class="services container" id="services">
+      <div class="services-wrapper">
+        <h2 class="services-title">Our Comprehensive Range of Cybersecurity Services</h2>
+        <p class="services-description">From audits to full-scale security management, our services cover all aspects of cyber protection to keep your data safe and your business secure</p>
+        <div class="service-cards">
+          <div class="cards-wrapper">
+            <div class="card-1">
+            <div class="card-2">
+            </div>
+          </div>
+          <div class="cards-list">
+              <!-- <div class="icon-elipse-services"> -->
+                  <svg class="icon-services-ellipse" width="218" height="218">
+                      <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                  </svg>
+              <!-- </div> -->
+            <h3 class="card-title">Risk Assessment</h3>
+                <p class="card-description">Proactively identify vulnerabilities and threats before they become problems.</p>
+                <div class="card-button-wrapper">
+                  <p class="link-description">Learn More</p>
+                  <svg class="icon-services-svg" width="88" height="88">
+                    <use href="./svg/icon-svg.svg#icon-arrow"></use>
+                  </svg>
+                  </div>
+                </div>
+            </div>
+            <div class="cards-wrapper">
+              <div class="card-1">
+              <div class="card-2">
+              </div>
+            </div>
+            <div class="cards-list">
+                <!-- <div class="icon-elipse-services"> -->
+                    <svg class="icon-services-ellipse" width="218" height="218">
+                        <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                    </svg>
+                <!-- </div> -->
+              <h3 class="card-title">Incident Response</h3>
+                  <p class="card-description">Rapid and effective action to mitigate the effects of security breaches.</p>
+                  <div class="card-button-wrapper">
+                    <p class="link-description">Learn More</p>
+                    <svg class="icon-services-svg" width="88" height="88">
+                      <use href="./svg/icon-svg.svg#icon-arrow"></use>
+                    </svg>
+                    </div>
+                  </div>
+              </div>
+              <div class="cards-wrapper">
+                <div class="card-1">
+                <div class="card-2">
+                </div>
+              </div>
+              <div class="cards-list">
+                  <!-- <div class="icon-elipse-services"> -->
+                      <svg class="icon-services-ellipse" width="218" height="218">
+                          <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                      </svg>
+                  <!-- </div> -->
+                <h3 class="card-title">Compliance Solutions</h3>
+                    <p class="card-description">Ensure your business meets all regulatory and compliance requirements for cybersecurity.</p>
+                    <div class="card-button-wrapper">
+                      <p class="link-description">Learn More</p>
+                      <svg class="icon-services-svg" width="88" height="88">
+                        <use href="./svg/icon-svg.svg#icon-arrow"></use>
+                      </svg>
+                      </div>
+                    </div>
+                </div>
+        </div>
       </div>
-      <div class="footer-column">
-        <h3>Legal</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Service</a></li>
-          <li><a href="#">Compliance</a></li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h3>Company Information</h3>
-        <p>+1-800-SECURE</p>
-        <p>contact@guardiantech.com</p>
-        <p>123 Cyber Lane, Tech City, IN, USA</p>
-      </div>
-      <div class="footer-column">
-        <h3>Careers</h3>
-        <p>Join Our Team</p>
-      </div>
-    </div>
-    <p>&copy; 2024 Secure Nexus. All rights reserved.</p>
-  </footer>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources container" id="resources">
+        <h2>Explore Our Rich Library of Cybersecurity Resources</h2>
+        <div class="resource-icons">
+            <div class="resource"><h3>E-books</h3></div>
+            <div class="resource"><h3>Webinars</h3></div>
+            <div class="resource"><h3>Blog Articles</h3></div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact" id="contact">
+        <h2>Connect With Our Cybersecurity Experts Today</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+    <div class="foter-logo" id="header">Secure Nexus</div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#stats">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Compliance</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company Information</h3>
+                <p>+1-800-SECURE</p>
+                <p>contact@guardiantech.com</p>
+                <p>123 Cyber Lane, Tech City, IN, USA</p>
+            </div>
+            <div class="footer-column">
+                <h3>Careers</h3>
+                <p>Join Our Team</p>
+            </div>
+        </div>
+        <p>&copy; 2024 Secure Nexus. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
