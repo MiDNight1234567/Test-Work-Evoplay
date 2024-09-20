@@ -15,8 +15,8 @@
 </head>
 <body>
     <!-- Header -->
-    <header id="header">
-        <nav class="container">
+    <header class="container" id="header">
+        <nav>
             <div class="logo">Secure Nexus</div>
             <ul class="nav-links">
                 <li><a href="#header">Home</a></li>
@@ -221,7 +221,7 @@
                           <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
                       </svg>
                   <!-- </div> -->
-                <h3 class="card-title">Compliance Solutions</h3>
+                <h3 class="card-title corect">Compliance Solutions</h3>
                     <p class="card-description">Ensure your business meets all regulatory and compliance requirements for cybersecurity.</p>
                     <div class="card-button-wrapper">
                       <p class="link-description">Learn More</p>
@@ -235,61 +235,115 @@
       </div>
     </section>
 
-    <!-- Resources Section -->
-    <section class="resources container" id="resources">
-        <h2>Explore Our Rich Library of Cybersecurity Resources</h2>
-        <div class="resource-icons">
-            <div class="resource"><h3>E-books</h3></div>
-            <div class="resource"><h3>Webinars</h3></div>
-            <div class="resource"><h3>Blog Articles</h3></div>
-        </div>
-    </section>
+    <!-- Explore Section -->
+    <section class="explore container">
+        <h2 class="explore-title">Explore Our Rich Library of Cybersecurity Resources</h2>
+        <p class="explore-description">Enhance your knowledge with our curated content featuring best practices, case studies, and the latest industry insights</p>
+        <div class="explore-wrapper">
+            <div class="explore-cards">
+                <svg class="icon-explore-svg" width="156" height="156">
+                    <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                </svg>
+                <h3 class="explore-description-svg">E-books</h3>
+                </div>
+                <div class="explore-cards">
+                    <svg class="icon-explore-svg" width="156" height="156">
+                        <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                    </svg>
+                    <h3 class="explore-description-svg">Webinars</h3>
+                    </div>
+                    <div class="explore-cards-down">
+                        <svg class="icon-explore-svg" width="156" height="156">
+                            <use href="./svg/icon-svg.svg#icon-icon-ellipse"></use>
+                        </svg>
+                        <h3 class="explore-description-svg">Blog Articles</h3>
+                        </div>
+    </section>  
 
     <!-- Contact Form Section -->
-    <section class="contact" id="contact">
-        <h2>Connect With Our Cybersecurity Experts Today</h2>
-        <form>
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" class="btn submit">Send Message</button>
+    <section class="contact container" id="contact">
+        <h2 class="contact-title">Connect With Our Cybersecurity Experts Today</h2>
+        <p class="contact-description">Ready to protect your business? Get in touch with us to discuss your cybersecurity needs and discover how our tailored solutions can bolster your defenses</p>
+        <picture>
+            <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/4963-min@1x.jpg" />
+            <source media="(min-width: 375px) and (max-width: 767.98px)" srcset="./images/4963-min@2x.jpg" />
+            <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/image@1x.jpg" />
+            <source media="(min-width: 768px) and (max-width: 1439.98px)" srcset="./images/image@2x.jpg" />
+            <source media="(min-width: 1440px)" srcset="./images/image@1x.jpg" />
+            <source media="(min-width: 1440px)" srcset="./images/image@2x.jpg" />
+            <img class="contact-img" src="./images/4963-min@1x.jpg" alt="#">
+            </picture>
+        <form class="contact-form">
+            <input class="input-send" type="text" name="name" placeholder="Name">
+            <input class="input-send" type="email" name="email" placeholder="Email">
+            <textarea class="input-message" name="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn-submit">Send Message</button>
         </form>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-container">
-    <div class="foter-logo" id="header">Secure Nexus</div>
+    <footer class="footer container">
+    <div class="footer-box">
+    <h2 class="foter-logo" id="header">Secure Nexus</h2>
             <div class="footer-column">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#stats">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#resources">Resources</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a 
+                        target="_blank"
+                        href="#stats">About Us</a></li>
+                    <li class="footer-link"><a
+                        target="_blank"
+                        href="#services">Services</a></li>
+                    <li class="footer-link"><a
+                        target="_blank"
+                        href="#resources">Resources</a></li>
+                    <li class="footer-link-down"><a
+                        target="_blank"
+                        href="#contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Legal</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Compliance</a></li>
+                <h3 class="footer-title">Legal</h3>
+                <ul class="footer-links">
+                    <li class="footer-link"><a
+                        target="_blank"
+                        href="#">Privacy Policy</a></li>
+                    <li class="footer-link"><a
+                        target="_blank"
+                        href="#">Terms of Service</a></li>
+                    <li class="footer-link-down-last"><a
+                        target="_blank"
+                        href="#">Compliance</a></li>
                 </ul>
             </div>
-            <div class="footer-column">
-                <h3>Company Information</h3>
-                <p>+1-800-SECURE</p>
-                <p>contact@guardiantech.com</p>
-                <p>123 Cyber Lane, Tech City, IN, USA</p>
+            <div class="footer-column-down">
+                <h3 class="footer-title">Company Information</h3>
+                <div class="footer-contact-box">
+                    <svg class="icon-footer" width="24" height="24">
+                        <use href="./svg/icon-svg.svg#icon-phone"></use>
+                    </svg> 
+                <p class="footer-contact">+1-800-SECURE</p>
+                </div>
+                <div class="footer-contact-box">
+                    <svg class="icon-footer" width="24" height="24">
+                        <use href="./svg/icon-svg.svg#icon-envelope"></use>
+                    </svg>
+                <p class="footer-contact">contact@guardiantech.com</p>
+                </div>
+                <div class="footer-contact-box">
+                    <svg class="icon-footer" width="24" height="24">
+                        <use href="./svg/icon-svg.svg#icon-point"></use>
+                    </svg>
+                <p class="footer-contact">123 Cyber Lane, Tech City, IN, USA</p>
+                </div>
             </div>
             <div class="footer-column">
-                <h3>Careers</h3>
-                <p>Join Our Team</p>
+                <h3 class="footer-title">Careers</h3>
+                <p class="footer-contact">Join Our Team</p>
+                <p class="footer-contact-discription">Interested in making a difference in cybersecurity? Visit our Careers page to see available opportunities and become a part of our innovative team</p>
             </div>
         </div>
-        <p>&copy; 2024 Secure Nexus. All rights reserved.</p>
+        <p class="footer-copyright">&copy; 2024 Secure Nexus. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
