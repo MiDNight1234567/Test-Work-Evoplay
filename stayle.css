@@ -45,10 +45,11 @@ body {
     }
   
     .logo {
+      width: 134px;
+      height: 29px;
       margin-top: 77px;
       margin-bottom: 27px;
       margin-left: 148px;
-      margin-right: 148px;
       color: #DF3D0F;
       text-align: center;
       font-family: 'Montserrat';
@@ -201,7 +202,6 @@ body {
     .feature {
       width: 334px;
       height: 228px;
-      /* margin-left: 48px; */
       border-radius: 15px;
       background: rgba(59, 52, 160, 0.27);
       position: relative;
@@ -539,7 +539,6 @@ body {
     }
 
     .explore-title {
-      /* width: 387px; */
       color: #FFF;
       text-align: center;
       font-family: 'Montserrat';
@@ -848,10 +847,11 @@ body {
   }
 
   .logo {
+    width: 134px;
+    height: 29px;
     margin-top: 77px;
     margin-bottom: 27px;
     margin-left: 148px;
-    margin-right: 148px;
     color: #DF3D0F;
     text-align: center;
     font-family: 'Montserrat';
@@ -1004,7 +1004,6 @@ body {
   .feature {
     width: 334px;
     height: 228px;
-    /* margin-left: 48px; */
     border-radius: 15px;
     background: rgba(59, 52, 160, 0.27);
     position: relative;
@@ -1342,7 +1341,6 @@ body {
   }
 
   .explore-title {
-    /* width: 387px; */
     color: #FFF;
     text-align: center;
     font-family: 'Montserrat';
@@ -1638,23 +1636,20 @@ body {
     line-height: normal;
     padding-bottom: 65px;
   }
-  }
+}
 
   /* Tablet (768px и больше) */
 @media screen and (min-width: 768px) and (max-width: 1439.98px) {
   .container {
-    width: 430px;
+    width: 1440px;
   }
 
-  header {
-    flex-direction: column;
+  .nav-container {
+    display: flex;
+    flex-direction: row;
   }
 
   .logo {
-    margin-top: 77px;
-    margin-bottom: 27px;
-    margin-left: 148px;
-    margin-right: 148px;
     color: #DF3D0F;
     text-align: center;
     font-family: 'Montserrat';
@@ -1662,45 +1657,36 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-left: 85px;
+    margin-top: 25px;
   }
 
   .nav-links {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 34px;
+    margin-left: 200px;
+    margin-right: 25px;
+  }
+
+  .nav-link {
+
   }
 
   .button-mobile-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    fill: #2f2f37;
-    background: transparent;
-    outline: none;
-    border: none;
-    position: relative;
+    display: none;
   }
 
   .button {
-    position: absolute;
-    left: 272px;
-    width: 143px;
-    height: 35px;
+    width: 90px;
+    height: 20px;
+    margin-right: 45px;
     border: none;
-    margin-right: 15px;
     background: linear-gradient(90deg, #3B34A1 0%, #E1400F 100%);
   }
 
   .button:hover {
-    cursor: pointer;
-  }
-
-  .button-menu {
-      width: 53px;
-      height: 35px;
-      fill: #FFF;
-  }
-
-  .button-menu:hover {
     cursor: pointer;
   }
 
