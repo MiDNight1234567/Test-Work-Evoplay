@@ -415,6 +415,11 @@ body {
       border: none;
     }
 
+    .lending-button:hover,
+    .lending-button:focus {
+      cursor: pointer;
+    }
+
     .services-wrapper {
       display: flex;
       flex-direction: column;
@@ -712,6 +717,12 @@ body {
       line-height: normal;
       margin-bottom: 285px;
     }
+
+    .btn-submit:hover,
+    .btn-submit:focus {
+      cursor: pointer;
+    }
+
 
     .footer {
       background: rgba(59, 52, 160, 0.27);
@@ -1241,6 +1252,11 @@ body {
     border: none;
   }
 
+  .lending-button:hover,
+  .lending-button:focus {
+    cursor: pointer;
+  }
+
   .services-wrapper {
     display: flex;
     flex-direction: column;
@@ -1538,6 +1554,12 @@ body {
     line-height: normal;
     margin-bottom: 285px;
   }
+
+  .btn-submit:hover,
+  .btn-submit:focus {
+    cursor: pointer;
+  }
+
 
   .footer {
     background: rgba(59, 52, 160, 0.27);
@@ -2072,6 +2094,11 @@ body {
     border: none;
   }
 
+  .lending-button:hover,
+  .lending-button:focus {
+    cursor: pointer;
+  }
+
   .services-wrapper {
     display: flex;
     flex-direction: column;
@@ -2399,6 +2426,12 @@ body {
     line-height: normal;
     margin-bottom: 215px;
   }
+
+  .btn-submit:hover,
+  .btn-submit:focus {
+    cursor: pointer;
+  }
+
 
   .footer {
     background: rgba(59, 52, 160, 0.27);
@@ -2922,6 +2955,11 @@ body {
     border: none;
   }
 
+  .lending-button:hover,
+  .lending-button:focus {
+    cursor: pointer;
+  }
+
   .services-wrapper {
     display: flex;
     flex-direction: column;
@@ -3248,6 +3286,11 @@ body {
     font-weight: 600;
     line-height: normal;
     margin-bottom: 215px;
+  }
+
+  .btn-submit:hover,
+  .btn-submit:focus {
+    cursor: pointer;
   }
 
   .footer {
